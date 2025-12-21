@@ -15,6 +15,8 @@ type HeaderProps = {
 }
 
 function Header({ t, language, languageOptions, onLanguageChange, onContactClick }: HeaderProps) {
+  const cvUrl = `${import.meta.env.BASE_URL}Anton%20Perch%20CV.pdf`
+
   return (
     <header className="flex flex-col gap-6 border-b border-zinc-800/60 pb-8">
       <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
@@ -58,7 +60,7 @@ function Header({ t, language, languageOptions, onLanguageChange, onContactClick
           </a>
           <a
             className="cursor-pointer rounded-full border border-zinc-700 px-4 py-2 text-center text-xs font-semibold uppercase tracking-[0.2em] text-zinc-100 transition hover:border-zinc-500"
-            href="/Anton%20Perch%20CV.pdf"
+            href={cvUrl}
             target="_blank"
             rel="noreferrer"
           >
@@ -66,7 +68,7 @@ function Header({ t, language, languageOptions, onLanguageChange, onContactClick
           </a>
           <a
             className="cursor-pointer rounded-full border border-zinc-700 px-4 py-2 text-center text-xs font-semibold uppercase tracking-[0.2em] text-zinc-100 transition hover:border-zinc-500"
-            href="/Anton%20Perch%20CV.pdf"
+            href={cvUrl}
             download
           >
             {t.hero.cvDownload}
