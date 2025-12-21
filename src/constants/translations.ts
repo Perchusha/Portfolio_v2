@@ -12,12 +12,14 @@ export const translations: Translations = {
     },
     hero: {
       role: 'Senior Software Engineer',
-      location: 'Warsaw, Poland ∘ Remote',
+      location: 'Warsaw, Poland · Remote',
       summary:
         'Experienced Senior Software Engineer with deep expertise in React.js, TypeScript, and modern frontend frameworks. I build high-performance, accessible, and responsive web apps, and I love bringing real-time experiences to life with WebSockets.',
       ctaPrimary: 'Email me',
       ctaSecondary: 'View projects',
       availability: 'Open to full-time and contract roles',
+      cvDownload: 'Download CV',
+      cvView: 'View CV',
     },
     about: {
       title: 'Summary',
@@ -25,7 +27,7 @@ export const translations: Translations = {
     },
     sections: {
       skillsTitle: 'Core skills',
-      projectsTitle: 'Portfolio projects',
+      projectsTitle: 'Projects',
       experienceTitle: 'Professional experience',
       educationTitle: 'Education',
       languagesTitle: 'Languages',
@@ -120,6 +122,8 @@ export const translations: Translations = {
       ctaPrimary: 'Написать на почту',
       ctaSecondary: 'Смотреть проекты',
       availability: 'Открыт к full-time и контрактным ролям',
+      cvDownload: 'Скачать CV',
+      cvView: 'Просмотреть CV',
     },
     about: {
       title: 'Резюме',
@@ -127,7 +131,7 @@ export const translations: Translations = {
     },
     sections: {
       skillsTitle: 'Ключевые навыки',
-      projectsTitle: 'Проекты портфолио',
+      projectsTitle: 'Проекты',
       experienceTitle: 'Профессиональный опыт',
       educationTitle: 'Образование',
       languagesTitle: 'Языки',
@@ -221,6 +225,8 @@ export const translations: Translations = {
       ctaPrimary: 'Napisz do mnie',
       ctaSecondary: 'Zobacz projekty',
       availability: 'Otwarte na role full-time i kontrakty',
+      cvDownload: 'Pobierz CV',
+      cvView: 'Zobacz CV',
     },
     about: {
       title: 'Podsumowanie',
@@ -228,7 +234,7 @@ export const translations: Translations = {
     },
     sections: {
       skillsTitle: 'Kluczowe umiejętności',
-      projectsTitle: 'Projekty portfolio',
+      projectsTitle: 'Projekty',
       experienceTitle: 'Doświadczenie zawodowe',
       educationTitle: 'Edukacja',
       languagesTitle: 'Języki',
@@ -322,6 +328,8 @@ export const translations: Translations = {
       ctaPrimary: 'Напісаць мне',
       ctaSecondary: 'Праекты',
       availability: 'Адкрыты да full-time і кантрактных роляў',
+      cvDownload: 'Спампаваць CV',
+      cvView: 'Праглядзець CV',
     },
     about: {
       title: 'Каротка',
@@ -329,7 +337,7 @@ export const translations: Translations = {
     },
     sections: {
       skillsTitle: 'Ключавыя навыкі',
-      projectsTitle: 'Праекты партфоліа',
+      projectsTitle: 'Праекты',
       experienceTitle: 'Прафесійны досвед',
       educationTitle: 'Адукацыя',
       languagesTitle: 'Мовы',

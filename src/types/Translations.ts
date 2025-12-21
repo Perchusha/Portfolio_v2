@@ -16,6 +16,8 @@ export type Hero = {
   ctaPrimary: string
   ctaSecondary: string
   availability: string
+  cvView: string
+  cvDownload: string
 }
 
 export type About = {

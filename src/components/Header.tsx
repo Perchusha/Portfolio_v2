@@ -44,33 +44,35 @@ function Header({ t, language, languageOptions, onLanguageChange, onContactClick
         </div>
       </div>
       <div className="flex flex-col gap-4 items-start md:flex-row md:justify-between">
-        <p className="max-w-2xl text-base text-zinc-200">{t.hero.summary}</p>
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="max-w-2xl space-y-3 text-base text-zinc-200">
+          <p>{t.hero.summary}</p>
+          <p className="text-xs uppercase tracking-[0.25em] text-zinc-400">{t.hero.availability}</p>
+        </div>
+        <div className="flex w-full flex-col gap-3 sm:w-56">
           <a
-            className="cursor-pointer rounded-full border border-zinc-100 bg-zinc-100 px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-900 transition hover:-translate-y-0.5 hover:bg-zinc-200"
+            className="cursor-pointer rounded-full border border-zinc-100 bg-zinc-100 px-5 py-2 text-center text-xs font-semibold uppercase tracking-[0.2em] text-zinc-900 transition hover:bg-zinc-200"
             href="#contact-form"
             onClick={onContactClick}
           >
             {t.hero.ctaPrimary}
           </a>
           <a
-            className="cursor-pointer rounded-full border border-zinc-700 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-100 transition hover:-translate-y-0.5 hover:border-zinc-500"
+            className="cursor-pointer rounded-full border border-zinc-700 px-4 py-2 text-center text-xs font-semibold uppercase tracking-[0.2em] text-zinc-100 transition hover:border-zinc-500"
             href="/Anton%20Perch%20CV.pdf"
             target="_blank"
             rel="noreferrer"
           >
-            View CV
+            {t.hero.cvView}
           </a>
           <a
-            className="cursor-pointer rounded-full border border-zinc-700 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-100 transition hover:-translate-y-0.5 hover:border-zinc-500"
+            className="cursor-pointer rounded-full border border-zinc-700 px-4 py-2 text-center text-xs font-semibold uppercase tracking-[0.2em] text-zinc-100 transition hover:border-zinc-500"
             href="/Anton%20Perch%20CV.pdf"
             download
           >
-            Download CV
+            {t.hero.cvDownload}
           </a>
         </div>
       </div>
-      <p className="text-xs uppercase tracking-[0.25em] text-zinc-400">{t.hero.availability}</p>
     </header>
   )
 }
