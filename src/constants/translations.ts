@@ -14,7 +14,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Warsaw, Poland · Remote',
       summary:
-        'Experienced Senior Software Engineer with deep expertise in React.js, TypeScript, and modern frontend frameworks. I build high-performance, accessible, and responsive web apps, and I love bringing real-time experiences to life with WebSockets.',
+        'Experienced Senior Software Engineer with deep expertise in React.js, TypeScript, and modern frontend frameworks. I build high-performance, accessible, and responsive web apps.',
       ctaPrimary: 'Email me',
       ctaSecondary: 'View projects',
       availability: 'Open to full-time and contract roles',
@@ -118,7 +118,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Варшава, Польша · Удаленно',
       summary:
-        'Senior инженер с глубоким опытом в React.js, TypeScript и современных фронтенд-фреймворках. Делаю быстрые, доступные и отзывчивые веб-приложения и люблю добавлять real-time функциональность через WebSockets.',
+        'Senior инженер с глубоким опытом в React.js, TypeScript и современных фронтенд-фреймворках. Делаю быстрые, доступные и отзывчивые веб-приложения.',
       ctaPrimary: 'Написать на почту',
       ctaSecondary: 'Смотреть проекты',
       availability: 'Открыт к full-time и контрактным ролям',
@@ -221,7 +221,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Warszawa, Polska · Zdalnie',
       summary:
-        'Doświadczony Senior Software Engineer z mocnym zapleczem w React.js, TypeScript i nowoczesnych frameworkach frontendowych. Buduję wydajne, dostępne i responsywne aplikacje webowe oraz rozwiązania realtime z WebSockets.',
+        'Doświadczony Senior Software Engineer z mocnym zapleczem w React.js, TypeScript i nowoczesnych frameworkach frontendowych. Buduję wydajne, dostępne i responsywne aplikacje webowe.',
       ctaPrimary: 'Napisz do mnie',
       ctaSecondary: 'Zobacz projekty',
       availability: 'Otwarte na role full-time i kontrakty',
@@ -324,7 +324,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Варшава, Польшча · Дыстанцыйна',
       summary:
-        'Вопытны Senior інжынер з моцнай экспертызай у React.js, TypeScript і сучасных фронтэнд-фрэймворках. Будую хуткія, даступныя і адаптыўныя вэб-прыкладанні, а таксама real-time функцыі праз WebSockets.',
+        'Вопытны Senior інжынер з моцнай экспертызай у React.js, TypeScript і сучасных фронтэнд-фрэймворках. Будую хуткія, даступныя і адаптыўныя вэб-прыкладанні.',
       ctaPrimary: 'Напісаць мне',
       ctaSecondary: 'Праекты',
       availability: 'Адкрыты да full-time і кантрактных роляў',
