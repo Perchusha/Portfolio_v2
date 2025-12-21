@@ -1,0 +1,21 @@
+﻿@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    font-family: "Space Grotesk", "Plus Jakarta Sans", "Segoe UI", sans-serif;
+    letter-spacing: -0.01em;
+    background-color: #09090b;
+    color: #f4f4f5;
+  }
+
+  ::selection {
+    background-color: #f4f4f5;
+    color: #09090b;
+  }
+
+}
