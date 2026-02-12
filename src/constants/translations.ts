@@ -32,7 +32,7 @@ export const translations: Translations = {
       educationTitle: 'Education',
       languagesTitle: 'Languages',
       contactTitle: 'Contact',
-      projectLinkLabel: 'View on Steam',
+      projectLinkLabel: 'View live',
     },
     projects: [
       {
@@ -43,6 +43,13 @@ export const translations: Translations = {
         status: 'Live on Steam',
         link: 'https://store.steampowered.com/app/3764920/Relax_Scramble_Endless_Word_Puzzle/',
       },
+      {
+        name: 'DeepMinute',
+        type: 'React + Next.js',
+        description: 'DeepMinute is a distraction-free focus timer with interval modes and session tracking.',
+        status: 'Live on the web',
+        link: 'https://deepminute.com/',
+      }
     ],
     experience: [
       {
@@ -136,7 +143,7 @@ export const translations: Translations = {
       educationTitle: 'Образование',
       languagesTitle: 'Языки',
       contactTitle: 'Контакты',
-      projectLinkLabel: 'Смотреть в Steam',
+      projectLinkLabel: 'Смотреть проект',
     },
     projects: [
       {
@@ -146,6 +153,13 @@ export const translations: Translations = {
           'Уютная бесконечная словесная головоломка с мягким темпом, облачными сохранениями и расслабляющей музыкой. Выпущена в Steam.',
         status: 'В Steam',
         link: 'https://store.steampowered.com/app/3764920/Relax_Scramble_Endless_Word_Puzzle/',
+      },
+      {
+        name: 'DeepMinute',
+        type: 'React + Next.js',
+        description: 'DeepMinute - это таймер фокуса без отвлекающих элементов с интервальными режимами и трекингом сессий.',
+        status: 'Доступно в вебе',
+        link: 'https://deepminute.com/',
       },
     ],
     experience: [
@@ -239,7 +253,7 @@ export const translations: Translations = {
       educationTitle: 'Edukacja',
       languagesTitle: 'Języki',
       contactTitle: 'Kontakt',
-      projectLinkLabel: 'Zobacz na Steam',
+      projectLinkLabel: 'Zobacz online',
     },
     projects: [
       {
@@ -249,6 +263,13 @@ export const translations: Translations = {
           'Przytulna, nieskończona gra słowna z kojącym tempem, zapisem w chmurze i relaksującą muzyką. Wydana na Steam.',
         status: 'Dostępne na Steam',
         link: 'https://store.steampowered.com/app/3764920/Relax_Scramble_Endless_Word_Puzzle/',
+      },
+      {
+        name: 'DeepMinute',
+        type: 'React + Next.js',
+        description: 'DeepMinute to timer skupienia bez rozpraszaczy z trybami interwałowymi i śledzeniem sesji.',
+        status: 'Dostępne w sieci',
+        link: 'https://deepminute.com/',
       },
     ],
     experience: [
@@ -342,7 +363,7 @@ export const translations: Translations = {
       educationTitle: 'Адукацыя',
       languagesTitle: 'Мовы',
       contactTitle: 'Кантакты',
-      projectLinkLabel: 'Адкрыць у Steam',
+      projectLinkLabel: 'Адкрыць праект',
     },
     projects: [
       {
@@ -352,6 +373,13 @@ export const translations: Translations = {
           'Утульная бясконцая гульня са словамі з мяккім тэмпам, воблачнымі захаваннямі і расслабляльнай музыкай. Выпушчана ў Steam.',
         status: 'У Steam',
         link: 'https://store.steampowered.com/app/3764920/Relax_Scramble_Endless_Word_Puzzle/',
+      },
+      {
+        name: 'DeepMinute',
+        type: 'React + Next.js',
+        description: 'DeepMinute - гэта таймер фокусу без адцягненняў з інтэрвальнымі рэжымамі і адсочваннем сесій.',
+        status: 'Даступна ў вебе',
+        link: 'https://deepminute.com/',
       },
     ],
     experience: [
