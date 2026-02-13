@@ -14,7 +14,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Warsaw, Poland · Remote',
       summary:
-        'Experienced Senior Software Engineer with deep expertise in React.js, TypeScript, and modern frontend frameworks. I build high-performance, accessible, and responsive web apps.',
+        'Senior Web & Full-Stack Engineer with 8+ years of experience designing and shipping scalable web, desktop, and real-time systems. Strong expertise in React, Next.js, NestJS, and performance-driven architecture.',
       ctaPrimary: 'Email me',
       ctaSecondary: 'View projects',
       availability: 'Open to full-time and contract roles',
@@ -23,7 +23,7 @@ export const translations: Translations = {
     },
     about: {
       title: 'Summary',
-      body: 'Product-focused engineer with a clean-code mindset, strong ownership, and a collaborative approach across design, backend, and product teams.',
+      body: 'Product-focused engineer with strong ownership and deep understanding of system design, real-time communication, and scalable frontend architecture. I value clean abstractions, performance, and long-term maintainability.',
     },
     sections: {
       skillsTitle: 'Core skills',
@@ -37,19 +37,20 @@ export const translations: Translations = {
     projects: [
       {
         name: 'Relax Scramble: Endless Word Puzzle',
-        type: 'React + Electron',
+        type: 'Electron + React + Node.js',
         description:
-          'A cozy, endless word puzzle with calming letter flow, cloud saves, and relaxing audio. Built for Steam with a minimalist, meditative UX.',
+          'Cross-platform desktop word puzzle game built with Electron, React, and Node.js. Features infinite gameplay mechanics, Steam Cloud synchronization, multi-language support (8 languages), and real-time event handling using SSE. Successfully shipped on Steam.',
         status: 'Live on Steam',
         link: 'https://store.steampowered.com/app/3764920/Relax_Scramble_Endless_Word_Puzzle/',
       },
       {
         name: 'DeepMinute',
-        type: 'React + Next.js',
-        description: 'DeepMinute is a distraction-free focus timer with interval modes and session tracking.',
+        type: 'Next.js + React',
+        description:
+          'Independently built and deployed production-ready web application focused on performance and SEO. Integrated Google Ads and Vercel Analytics, configured custom domain, and optimized for search visibility.',
         status: 'Live on the web',
         link: 'https://deepminute.com/',
-      }
+      },
     ],
     experience: [
       {
@@ -57,9 +58,11 @@ export const translations: Translations = {
         period: 'Oct 2024 - Present',
         company: 'ITSharkz, Warsaw (Remote)',
         bullets: [
-          'Enhanced frontend performance and optimized UX with WebSockets and real-time features.',
-          'Collaborated with backend teams on scalable APIs and database schemas.',
-          'Built reusable, accessible UI components aligned with product goals.',
+          'Develop SSR-based applications using Symfony (Twig) and TypeScript (Stimulus) within a large-scale product team.',
+          'Design and replace legacy UI components with modular, accessible, and test-covered implementations.',
+          'Conduct code reviews to maintain architectural consistency and performance standards.',
+          'Implement responsive layouts and accessibility validation with Storybook unit testing.',
+          'Previously developed complex modules using Next.js, React, and GraphQL within a modular monolith architecture.',
         ],
       },
       {
@@ -67,10 +70,12 @@ export const translations: Translations = {
         period: 'Sep 2021 - Aug 2024',
         company: 'Dashbouquet Development, Warsaw (Remote)',
         bullets: [
-          'Built high-performance web applications with React.js, Node.js, Express.js, PostgreSQL.',
-          'Integrated OpenAI APIs to deliver AI-powered, user-centric solutions.',
-          'Led microservice development and optimized real-time communication workflows.',
-          'Maintained CI/CD pipelines and mentored junior engineers.',
+          'Delivered full-stack web and desktop applications using React, Next.js, NestJS, PostgreSQL, and Electron.',
+          'Redesigned backend architecture from Firebase RPC to RESTful NestJS infrastructure, improving stability and reducing cold starts.',
+          'Built AI-powered features using OpenAI and Anthropic models including prompt engineering and performance optimization.',
+          'Developed real-time systems with WebSockets and computer-vision integrations.',
+          'Worked with GraphQL, Web3 modules, and smart contract integrations.',
+          'Led technical decisions, infrastructure setup, mentoring, and direct collaboration with product owners.',
         ],
       },
       {
@@ -78,8 +83,10 @@ export const translations: Translations = {
         period: 'Jul 2019 - Aug 2021',
         company: 'XB Software, Minsk (Office)',
         bullets: [
-          'Created custom JavaScript components and optimized reactive DOM performance.',
-          'Mentored and onboarded new team members.',
+          'Developed framework-agnostic JavaScript widget library compatible with React, Angular, Vue, and legacy environments.',
+          'Contributed to custom reactive rendering system built on JavaScript event loop and microtask queue.',
+          'Ensured cross-browser compatibility including IE8+ support.',
+          'Built demo applications and integration snippets to support product adoption.',
         ],
       },
       {
@@ -87,9 +94,10 @@ export const translations: Translations = {
         period: 'Aug 2017 - Jul 2019',
         company: 'Travel Agency, Minsk (Office)',
         bullets: [
-          'Developed and supported a CRM for booking management and sales automation.',
-          'Prepared technical documentation and clear development plans.',
-          'Ensured security practices and data privacy compliance.',
+          'Designed and built internal CRM system from scratch using PHP, JavaScript, and WebSockets.',
+          'Implemented role-based access control and complex business workflows.',
+          'Developed real-time monitoring and status tracking features.',
+          'Worked directly with business owner to gather requirements and deliver production-ready solutions.',
         ],
       },
     ],
@@ -125,7 +133,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Варшава, Польша · Удаленно',
       summary:
-        'Senior инженер с глубоким опытом в React.js, TypeScript и современных фронтенд-фреймворках. Делаю быстрые, доступные и отзывчивые веб-приложения.',
+        'Senior Web & Full-Stack инженер с 8+ годами опыта в проектировании и запуске масштабируемых web, desktop и real-time систем. Сильная экспертиза в React, Next.js, NestJS и performance-ориентированной архитектуре.',
       ctaPrimary: 'Написать на почту',
       ctaSecondary: 'Смотреть проекты',
       availability: 'Открыт к full-time и контрактным ролям',
@@ -134,7 +142,7 @@ export const translations: Translations = {
     },
     about: {
       title: 'Резюме',
-      body: 'Инженер, ориентированный на продукт, с чистым кодом, сильной ответственностью и партнерским подходом к дизайну, бэкенду и продакт-командам.',
+      body: 'Product-oriented инженер с сильным ownership и глубоким пониманием системного дизайна, real-time коммуникаций и масштабируемой frontend-архитектуры. Ценю чистые абстракции, производительность и долгосрочную поддерживаемость.',
     },
     sections: {
       skillsTitle: 'Ключевые навыки',
@@ -148,16 +156,17 @@ export const translations: Translations = {
     projects: [
       {
         name: 'Relax Scramble: Endless Word Puzzle',
-        type: 'React + Electron',
+        type: 'Electron + React + Node.js',
         description:
-          'Уютная бесконечная словесная головоломка с мягким темпом, облачными сохранениями и расслабляющей музыкой. Выпущена в Steam.',
+          'Кроссплатформенная desktop-игра-головоломка, созданная на Electron, React и Node.js. Реализованы бесконечный игровой цикл, синхронизация через Steam Cloud, мультиязычность (8 языков) и real-time обработка событий на SSE. Успешно выпущена в Steam.',
         status: 'В Steam',
         link: 'https://store.steampowered.com/app/3764920/Relax_Scramble_Endless_Word_Puzzle/',
       },
       {
         name: 'DeepMinute',
-        type: 'React + Next.js',
-        description: 'DeepMinute - это таймер фокуса без отвлекающих элементов с интервальными режимами и трекингом сессий.',
+        type: 'Next.js + React',
+        description:
+          'Независимо разработал и задеплоил production-ready веб-приложение с фокусом на performance и SEO. Интегрировал Google Ads и Vercel Analytics, настроил кастомный домен и оптимизировал видимость в поиске.',
         status: 'Доступно в вебе',
         link: 'https://deepminute.com/',
       },
@@ -168,9 +177,11 @@ export const translations: Translations = {
         period: 'Окт 2024 – Сейчас',
         company: 'ITSharkz, Варшава (Удаленно)',
         bullets: [
-          'Ускорил фронтенд и улучшил UX за счет real-time функций и WebSockets.',
-          'Скоординировал работу с бэкенд-командами по API и схемам БД.',
-          'Создавал переиспользуемые и доступные UI-компоненты.',
+          'Разрабатываю SSR-приложения на Symfony (Twig) и TypeScript (Stimulus) в рамках крупной продуктовой команды.',
+          'Проектирую и заменяю legacy UI-компоненты на модульные, доступные и покрытые тестами реализации.',
+          'Провожу code review для сохранения архитектурной целостности и стандартов производительности.',
+          'Реализую адаптивные layout-решения и валидацию доступности с unit-тестированием в Storybook.',
+          'Ранее разрабатывал сложные модули на Next.js, React и GraphQL в архитектуре modular monolith.',
         ],
       },
       {
@@ -178,10 +189,12 @@ export const translations: Translations = {
         period: 'Сен 2021 – Авг 2024',
         company: 'Dashbouquet Development, Варшава (Удаленно)',
         bullets: [
-          'Разрабатывал высокопроизводительные приложения на React.js, Node.js, Express.js, PostgreSQL.',
-          'Интегрировал OpenAI API для AI-функций, ориентированных на пользователя.',
-          'Лидировал разработку микросервисов и оптимизировал real-time коммуникации.',
-          'Поддерживал CI/CD и менторил младших разработчиков.',
+          'Доставлял full-stack web и desktop приложения с использованием React, Next.js, NestJS, PostgreSQL и Electron.',
+          'Перепроектировал backend-архитектуру с Firebase RPC на RESTful инфраструктуру NestJS, повысив стабильность и сократив cold starts.',
+          'Разрабатывал AI-функционал на моделях OpenAI и Anthropic, включая prompt engineering и оптимизацию производительности.',
+          'Разрабатывал real-time системы с WebSockets и интеграциями computer vision.',
+          'Работал с GraphQL, Web3-модулями и интеграциями smart contracts.',
+          'Вел технические решения, настройку инфраструктуры, менторинг и прямую коммуникацию с product owner.',
         ],
       },
       {
@@ -189,8 +202,10 @@ export const translations: Translations = {
         period: 'Июл 2019 – Авг 2021',
         company: 'XB Software, Минск (Офис)',
         bullets: [
-          'Создавал кастомные JavaScript-компоненты и оптимизировал реактивный DOM.',
-          'Наставлял и онбордил новых разработчиков.',
+          'Разрабатывал framework-agnostic библиотеку JavaScript-виджетов с поддержкой React, Angular, Vue и legacy-окружений.',
+          'Участвовал в создании кастомной системы реактивного рендеринга на базе JavaScript event loop и microtask queue.',
+          'Обеспечивал кроссбраузерную совместимость, включая поддержку IE8+.',
+          'Создавал demo-приложения и integration snippets для ускорения внедрения продукта.',
         ],
       },
       {
@@ -198,9 +213,10 @@ export const translations: Translations = {
         period: 'Авг 2017 – Июл 2019',
         company: 'Travel Agency, Минск (Офис)',
         bullets: [
-          'Разрабатывал и поддерживал CRM для бронирований и продаж.',
-          'Готовил техническую документацию и планы разработки.',
-          'Обеспечивал безопасность и соответствие требованиям по данным.',
+          'Спроектировал и разработал внутреннюю CRM-систему с нуля на PHP, JavaScript и WebSockets.',
+          'Реализовал role-based access control и сложные бизнес-процессы.',
+          'Разработал real-time мониторинг и функции отслеживания статусов.',
+          'Работал напрямую с владельцем бизнеса: собирал требования и поставлял production-ready решения.',
         ],
       },
     ],
@@ -222,7 +238,8 @@ export const translations: Translations = {
       formMessage: 'Сообщение',
       formSubmit: 'Отправить',
     },
-  },  pl: {
+  },
+  pl: {
     nav: {
       about: 'O mnie',
       skills: 'Umiejętności',
@@ -235,7 +252,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Warszawa, Polska · Zdalnie',
       summary:
-        'Doświadczony Senior Software Engineer z mocnym zapleczem w React.js, TypeScript i nowoczesnych frameworkach frontendowych. Buduję wydajne, dostępne i responsywne aplikacje webowe.',
+        'Senior Web & Full-Stack Engineer z ponad 8-letnim doświadczeniem w projektowaniu i dostarczaniu skalowalnych systemów webowych, desktopowych i realtime. Mocna specjalizacja w React, Next.js, NestJS oraz architekturze nastawionej na wydajność.',
       ctaPrimary: 'Napisz do mnie',
       ctaSecondary: 'Zobacz projekty',
       availability: 'Otwarte na role full-time i kontrakty',
@@ -244,7 +261,7 @@ export const translations: Translations = {
     },
     about: {
       title: 'Podsumowanie',
-      body: 'Inżynier nastawiony na produkt, czysty kod i współpracę z zespołami designu, backendu i produktu.',
+      body: 'Inżynier produktowy z silnym poczuciem ownership i głębokim rozumieniem projektowania systemów, komunikacji realtime oraz skalowalnej architektury frontendowej. Stawiam na czyste abstrakcje, wydajność i długoterminową utrzymywalność.',
     },
     sections: {
       skillsTitle: 'Kluczowe umiejętności',
@@ -258,16 +275,17 @@ export const translations: Translations = {
     projects: [
       {
         name: 'Relax Scramble: Endless Word Puzzle',
-        type: 'React + Electron',
+        type: 'Electron + React + Node.js',
         description:
-          'Przytulna, nieskończona gra słowna z kojącym tempem, zapisem w chmurze i relaksującą muzyką. Wydana na Steam.',
+          'Wieloplatformowa desktopowa gra słowna zbudowana w Electronie, React i Node.js. Zawiera nieskończoną mechanikę rozgrywki, synchronizację Steam Cloud, wsparcie wielojęzyczne (8 języków) oraz realtime event handling z użyciem SSE. Pomyślnie wydana na Steam.',
         status: 'Dostępne na Steam',
         link: 'https://store.steampowered.com/app/3764920/Relax_Scramble_Endless_Word_Puzzle/',
       },
       {
         name: 'DeepMinute',
-        type: 'React + Next.js',
-        description: 'DeepMinute to timer skupienia bez rozpraszaczy z trybami interwałowymi i śledzeniem sesji.',
+        type: 'Next.js + React',
+        description:
+          'Niezależnie zbudowana i wdrożona aplikacja webowa klasy production-ready, skupiona na wydajności i SEO. Zintegrowano Google Ads i Vercel Analytics, skonfigurowano własną domenę oraz zoptymalizowano widoczność w wyszukiwarkach.',
         status: 'Dostępne w sieci',
         link: 'https://deepminute.com/',
       },
@@ -278,9 +296,11 @@ export const translations: Translations = {
         period: 'Paź 2024 – Obecnie',
         company: 'ITSharkz, Warszawa (Zdalnie)',
         bullets: [
-          'Poprawa wydajności frontendu i UX dzięki funkcjom realtime i WebSockets.',
-          'Współpraca z backendem przy API i schematach baz danych.',
-          'Tworzenie dostępnych i wielokrotnego użytku komponentów UI.',
+          'Tworzę aplikacje SSR w Symfony (Twig) i TypeScript (Stimulus) w dużym zespole produktowym.',
+          'Projektuję i zastępuję legacy komponenty UI modułowymi, dostępnymi i pokrytymi testami implementacjami.',
+          'Prowadzę code review, aby utrzymać spójność architektoniczną i standardy wydajności.',
+          'Wdrażam responsywne layouty i walidację dostępności z testami jednostkowymi w Storybooku.',
+          'Wcześniej rozwijałem złożone moduły w Next.js, React i GraphQL w architekturze modular monolith.',
         ],
       },
       {
@@ -288,10 +308,12 @@ export const translations: Translations = {
         period: 'Wrz 2021 – Sie 2024',
         company: 'Dashbouquet Development, Warszawa (Zdalnie)',
         bullets: [
-          'Tworzenie wydajnych aplikacji webowych z React.js, Node.js, Express.js, PostgreSQL.',
-          'Integracja OpenAI APIs w rozwiązaniach skoncentrowanych na użytkowniku.',
-          'Prowadzenie rozwoju mikroserwisów i optymalizacja komunikacji realtime.',
-          'Utrzymanie CI/CD i mentoring młodszych inżynierów.',
+          'Dostarczałem full-stackowe aplikacje webowe i desktopowe z użyciem React, Next.js, NestJS, PostgreSQL i Electrona.',
+          'Przeprojektowałem architekturę backendu z Firebase RPC na RESTful infrastrukturę NestJS, poprawiając stabilność i redukując cold starty.',
+          'Budowałem funkcje AI z modelami OpenAI i Anthropic, w tym prompt engineering i optymalizację wydajności.',
+          'Tworzyłem systemy realtime z WebSockets i integracjami computer vision.',
+          'Pracowałem z GraphQL, modułami Web3 oraz integracjami smart kontraktów.',
+          'Prowadziłem decyzje techniczne, setup infrastruktury, mentoring i bezpośrednią współpracę z product ownerami.',
         ],
       },
       {
@@ -299,8 +321,10 @@ export const translations: Translations = {
         period: 'Lip 2019 – Sie 2021',
         company: 'XB Software, Mińsk (Biuro)',
         bullets: [
-          'Budowa niestandardowych komponentów JavaScript i optymalizacja DOM.',
-          'Mentoring i wdrażanie nowych członków zespołu.',
+          'Rozwijałem framework-agnostic bibliotekę widgetów JavaScript kompatybilną z React, Angular, Vue i środowiskami legacy.',
+          'Współtworzyłem niestandardowy system renderowania reaktywnego oparty o JavaScript event loop i microtask queue.',
+          'Zapewniałem kompatybilność międzyprzeglądarkową, w tym wsparcie dla IE8+.',
+          'Budowałem aplikacje demo i integration snippets wspierające adopcję produktu.',
         ],
       },
       {
@@ -308,9 +332,10 @@ export const translations: Translations = {
         period: 'Sie 2017 – Lip 2019',
         company: 'Travel Agency, Mińsk (Biuro)',
         bullets: [
-          'Rozwój i utrzymanie CRM do rezerwacji i sprzedaży.',
-          'Przygotowanie dokumentacji technicznej i planów rozwoju.',
-          'Dbanie o bezpieczeństwo i zgodność z prywatnością danych.',
+          'Zaprojektowałem i zbudowałem od zera wewnętrzny system CRM w PHP, JavaScript i WebSockets.',
+          'Wdrożyłem role-based access control oraz złożone workflow biznesowe.',
+          'Rozwinąłem funkcje monitoringu realtime i śledzenia statusów.',
+          'Współpracowałem bezpośrednio z właścicielem biznesu, zbierając wymagania i dostarczając rozwiązania production-ready.',
         ],
       },
     ],
@@ -332,7 +357,8 @@ export const translations: Translations = {
       formMessage: 'Wiadomość',
       formSubmit: 'Wyślij',
     },
-  },  be: {
+  },
+  be: {
     nav: {
       about: 'Пра мяне',
       skills: 'Навыкі',
@@ -345,7 +371,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Варшава, Польшча · Дыстанцыйна',
       summary:
-        'Вопытны Senior інжынер з моцнай экспертызай у React.js, TypeScript і сучасных фронтэнд-фрэймворках. Будую хуткія, даступныя і адаптыўныя вэб-прыкладанні.',
+        'Senior Web & Full-Stack інжынер з больш чым 8-гадовым досведам у праектаванні і запуску маштабаваных web, desktop і realtime сістэм. Моцная экспертыза ў React, Next.js, NestJS і архітэктуры, арыентаванай на прадукцыйнасць.',
       ctaPrimary: 'Напісаць мне',
       ctaSecondary: 'Праекты',
       availability: 'Адкрыты да full-time і кантрактных роляў',
@@ -354,7 +380,7 @@ export const translations: Translations = {
     },
     about: {
       title: 'Каротка',
-      body: 'Прадуктава арыентаваны інжынер з чыстым кодам, адказнасцю і супрацоўніцтвам паміж дызайнам, бэкендам і прадуктам.',
+      body: 'Інжынер, арыентаваны на прадукт, з моцным ownership і глыбокім разуменнем сістэмнага дызайну, realtime-камунікацый і маштабаванай frontend-архітэктуры. Цаню чыстыя абстракцыі, прадукцыйнасць і доўгатэрміновую падтрымлівасць.',
     },
     sections: {
       skillsTitle: 'Ключавыя навыкі',
@@ -368,16 +394,17 @@ export const translations: Translations = {
     projects: [
       {
         name: 'Relax Scramble: Endless Word Puzzle',
-        type: 'React + Electron',
+        type: 'Electron + React + Node.js',
         description:
-          'Утульная бясконцая гульня са словамі з мяккім тэмпам, воблачнымі захаваннямі і расслабляльнай музыкай. Выпушчана ў Steam.',
+          'Кросплатформенная desktop-гульня-галаваломка, створаная на Electron, React і Node.js. Мае бясконцую механіку гульні, сінхранізацыю Steam Cloud, шматмоўную падтрымку (8 моў) і realtime-апрацоўку падзей праз SSE. Паспяхова выпушчана ў Steam.',
         status: 'У Steam',
         link: 'https://store.steampowered.com/app/3764920/Relax_Scramble_Endless_Word_Puzzle/',
       },
       {
         name: 'DeepMinute',
-        type: 'React + Next.js',
-        description: 'DeepMinute - гэта таймер фокусу без адцягненняў з інтэрвальнымі рэжымамі і адсочваннем сесій.',
+        type: 'Next.js + React',
+        description:
+          'Самастойна распрацаваў і задэплоіў production-ready web-прыкладанне з фокусам на прадукцыйнасць і SEO. Інтэграваў Google Ads і Vercel Analytics, наладзіў уласны дамен і аптымізаваў бачнасць у пошуку.',
         status: 'Даступна ў вебе',
         link: 'https://deepminute.com/',
       },
@@ -388,9 +415,11 @@ export const translations: Translations = {
         period: 'Каст 2024 – Зараз',
         company: 'ITSharkz, Варшава (Дыстанцыйна)',
         bullets: [
-          'Палепшыў хуткасць і UX праз real-time функцыі і WebSockets.',
-          'Супрацоўнічаў з бэкенд-камандай над API і схемамі БД.',
-          'Ствараў даступныя і паўторна выкарыстоўваемыя UI-кампаненты.',
+          'Распрацоўваю SSR-прыкладанні на Symfony (Twig) і TypeScript (Stimulus) у рамках вялікай прадуктовай каманды.',
+          'Праектую і замяняю legacy UI-кампаненты модульнымі, даступнымі і пакрытымі тэстамі рэалізацыямі.',
+          'Праводжу code review для падтрымання архітэктурнай цэласнасці і стандартаў прадукцыйнасці.',
+          'Рэалізую адаптыўныя layout-рашэнні і валідацыю даступнасці з unit-тэставаннем у Storybook.',
+          'Раней распрацоўваў складаныя модулі на Next.js, React і GraphQL у архітэктуры modular monolith.',
         ],
       },
       {
@@ -398,10 +427,12 @@ export const translations: Translations = {
         period: 'Вер 2021 – Жні 2024',
         company: 'Dashbouquet Development, Варшава (Дыстанцыйна)',
         bullets: [
-          'Ствараў прадукцыйныя вэб-прыкладанні на React.js, Node.js, Express.js, PostgreSQL.',
-          'Інтэграваў OpenAI API для AI-функцыяналу, арыентаванага на карыстальніка.',
-          'Вёў распрацоўку мікрасэрвісаў і аптымізаваў real-time узаемадзеянне.',
-          'Падтрымліваў CI/CD і ментарылі маладых інжынераў.',
+          'Пастаўляў full-stack web і desktop-прыкладанні з выкарыстаннем React, Next.js, NestJS, PostgreSQL і Electron.',
+          'Перапраектаваў backend-архітэктуру з Firebase RPC на RESTful-інфраструктуру NestJS, палепшыўшы стабільнасць і скараціўшы cold starts.',
+          'Распрацоўваў AI-функцыянал з мадэлямі OpenAI і Anthropic, уключаючы prompt engineering і аптымізацыю прадукцыйнасці.',
+          'Будваў realtime-сістэмы з WebSockets і інтэграцыямі computer vision.',
+          'Працаваў з GraphQL, Web3-модулямі і інтэграцыямі smart contracts.',
+          'Вёў тэхнічныя рашэнні, наладку інфраструктуры, ментарынг і прамую супрацу з product owner.',
         ],
       },
       {
@@ -409,8 +440,10 @@ export const translations: Translations = {
         period: 'Ліп 2019 – Жні 2021',
         company: 'XB Software, Мінск (Офіс)',
         bullets: [
-          'Ствараў кастомныя JavaScript-кампаненты і аптымізаваў рэактыўны DOM.',
-          'Ментарылі і ўводзіў новых членаў каманды.',
+          'Распрацоўваў framework-agnostic бібліятэку JavaScript-віжэтаў, сумяшчальную з React, Angular, Vue і legacy-асяроддзямі.',
+          'Удзельнічаў у распрацоўцы кастомнай сістэмы рэактыўнага рэндэрынгу на аснове JavaScript event loop і microtask queue.',
+          'Забяспечваў кросбраузерную сумяшчальнасць, уключаючы падтрымку IE8+.',
+          'Ствараў demo-прыкладанні і integration snippets для падтрымкі ўкаранення прадукту.',
         ],
       },
       {
@@ -418,9 +451,10 @@ export const translations: Translations = {
         period: 'Жні 2017 – Ліп 2019',
         company: 'Travel Agency, Мінск (Офіс)',
         bullets: [
-          'Распрацоўваў і падтрымліваў CRM для браніраванняў і продажаў.',
-          'Падрыхтоўваў тэхнічную дакументацыю і планы распрацоўкі.',
-          'Забяспечваў бяспеку і адпаведнасць патрабаванням па даных.',
+          'Спраектаваў і распрацаваў унутраную CRM-сістэму з нуля на PHP, JavaScript і WebSockets.',
+          'Рэалізаваў role-based access control і складаныя бізнес-працэсы.',
+          'Распрацаваў функцыі realtime-маніторынгу і адсочвання статусаў.',
+          'Працаваў непасрэдна з уладальнікам бізнесу: збіраў патрабаванні і пастаўляў production-ready рашэнні.',
         ],
       },
     ],
@@ -442,5 +476,5 @@ export const translations: Translations = {
       formMessage: 'Паведамленне',
       formSubmit: 'Адправіць',
     },
-  }
+  },
 }
