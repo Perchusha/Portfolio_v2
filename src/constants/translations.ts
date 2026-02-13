@@ -62,7 +62,7 @@ export const translations: Translations = {
           'Design and replace legacy UI components with modular, accessible, and test-covered implementations.',
           'Conduct code reviews to maintain architectural consistency and performance standards.',
           'Implement responsive layouts and accessibility validation with Storybook unit testing.',
-          'Previously developed complex modules using Next.js, React, and GraphQL within a modular monolith architecture.',
+          'Develop complex modules using Next.js, React, and GraphQL within a modular monolith architecture.',
         ],
       },
       {
@@ -181,7 +181,7 @@ export const translations: Translations = {
           'Проектирую и заменяю legacy UI-компоненты на модульные, доступные и покрытые тестами реализации.',
           'Провожу code review для сохранения архитектурной целостности и стандартов производительности.',
           'Реализую адаптивные layout-решения и валидацию доступности с unit-тестированием в Storybook.',
-          'Ранее разрабатывал сложные модули на Next.js, React и GraphQL в архитектуре modular monolith.',
+          'Разрабатываю сложные модули на Next.js, React и GraphQL в архитектуре modular monolith.',
         ],
       },
       {
@@ -300,7 +300,7 @@ export const translations: Translations = {
           'Projektuję i zastępuję legacy komponenty UI modułowymi, dostępnymi i pokrytymi testami implementacjami.',
           'Prowadzę code review, aby utrzymać spójność architektoniczną i standardy wydajności.',
           'Wdrażam responsywne layouty i walidację dostępności z testami jednostkowymi w Storybooku.',
-          'Wcześniej rozwijałem złożone moduły w Next.js, React i GraphQL w architekturze modular monolith.',
+          'Rozwijam złożone moduły w Next.js, React i GraphQL w architekturze modular monolith.',
         ],
       },
       {
@@ -419,7 +419,7 @@ export const translations: Translations = {
           'Праектую і замяняю legacy UI-кампаненты модульнымі, даступнымі і пакрытымі тэстамі рэалізацыямі.',
           'Праводжу code review для падтрымання архітэктурнай цэласнасці і стандартаў прадукцыйнасці.',
           'Рэалізую адаптыўныя layout-рашэнні і валідацыю даступнасці з unit-тэставаннем у Storybook.',
-          'Раней распрацоўваў складаныя модулі на Next.js, React і GraphQL у архітэктуры modular monolith.',
+          'Распрацоўваю складаныя модулі на Next.js, React і GraphQL у архітэктуры modular monolith.',
         ],
       },
       {
