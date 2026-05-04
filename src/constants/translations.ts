@@ -45,11 +45,19 @@ export const translations: Translations = {
       },
       {
         name: 'DeepMinute',
-        type: 'Next.js + React',
+        type: 'Next.js',
         description:
           'Independently built and launched a production-ready Next.js app with strong SEO/performance focus. Added metadata optimization, Google Ads, Vercel Analytics, and custom-domain hosting on Vercel.',
         status: 'Live on the web',
         link: 'https://deepminute.com/',
+      },
+      {
+        name: 'Stash Loot Stack',
+        type: 'Next.js + Supabase',
+        description:
+          'Built a collectibles portfolio tracker for Pokemon TCG, CS2, LEGO, and other assets. Added authenticated dashboards, asset positions, automated market price sync, P&L views, price history, analytics, and monitoring.',
+        status: 'Live on the web',
+        link: 'https://stashlootstack.com/',
       },
     ],
     experience: [
@@ -176,11 +184,19 @@ export const translations: Translations = {
       },
       {
         name: 'DeepMinute',
-        type: 'Next.js + React',
+        type: 'Next.js',
         description:
           'Самостоятельно разработал и запустил production-ready приложение на Next.js с фокусом на SEO и performance. Добавил оптимизацию метаданных, Google Ads, Vercel Analytics и хостинг на Vercel с кастомным доменом.',
         status: 'Доступно в вебе',
         link: 'https://deepminute.com/',
+      },
+      {
+        name: 'Stash Loot Stack',
+        type: 'Next.js + Supabase',
+        description:
+          'Разработал portfolio tracker для коллекционных активов: Pokemon TCG, CS2, LEGO и других категорий. Реализовал авторизованные dashboards, позиции активов, автоматическую синхронизацию рыночных цен, P&L, историю цен, аналитику и мониторинг.',
+        status: 'Доступно в вебе',
+        link: 'https://stashlootstack.com/',
       },
     ],
     experience: [
@@ -307,11 +323,19 @@ export const translations: Translations = {
       },
       {
         name: 'DeepMinute',
-        type: 'Next.js + React',
+        type: 'Next.js',
         description:
           'Samodzielnie zbudowana i uruchomiona aplikacja production-ready na Next.js z mocnym naciskiem na SEO i wydajność. Dodano optymalizację metadanych, Google Ads, Vercel Analytics oraz hosting na Vercel z własną domeną.',
         status: 'Dostępne w sieci',
         link: 'https://deepminute.com/',
+      },
+      {
+        name: 'Stash Loot Stack',
+        type: 'Next.js + Supabase',
+        description:
+          'Zbudowałem tracker portfolio dla aktywów kolekcjonerskich: Pokemon TCG, CS2, LEGO i innych kategorii. Dodałem autoryzowane dashboardy, pozycje aktywów, automatyczną synchronizację cen rynkowych, P&L, historię cen, analitykę i monitoring.',
+        status: 'Dostępne w sieci',
+        link: 'https://stashlootstack.com/',
       },
     ],
     experience: [
@@ -438,11 +462,19 @@ export const translations: Translations = {
       },
       {
         name: 'DeepMinute',
-        type: 'Next.js + React',
+        type: 'Next.js',
         description:
           'Самастойна распрацаваў і запусціў production-ready прыкладанне на Next.js з фокусам на SEO і прадукцыйнасць. Дадаў аптымізацыю метададзеных, Google Ads, Vercel Analytics і хостынг на Vercel з уласным даменам.',
         status: 'Даступна ў вэбе',
         link: 'https://deepminute.com/',
+      },
+      {
+        name: 'Stash Loot Stack',
+        type: 'Next.js + Supabase',
+        description:
+          'Распрацаваў portfolio tracker для калекцыйных актываў: Pokemon TCG, CS2, LEGO і іншых катэгорый. Дадаў аўтарызаваныя dashboards, пазіцыі актываў, аўтаматычную сінхранізацыю рынкавых цэн, P&L, гісторыю цэн, аналітыку і маніторынг.',
+        status: 'Даступна ў вэбе',
+        link: 'https://stashlootstack.com/',
       },
     ],
     experience: [
