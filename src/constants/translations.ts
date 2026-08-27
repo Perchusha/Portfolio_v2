@@ -14,7 +14,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Warsaw, Poland · Remote',
       summary:
-        'Senior Web & Full-Stack Engineer with 8+ years of experience designing and shipping scalable web, desktop, and real-time systems. Strong expertise in React, Next.js, NestJS, and performance-driven architecture.',
+        'Senior Web & Full-Stack Engineer with 9 years of experience designing and shipping scalable web, desktop, and real-time systems. Strong expertise in React, Next.js, NestJS, and performance-driven architecture.',
       ctaPrimary: 'Email me',
       ctaSecondary: 'View projects',
       availability: 'Open to full-time and contract roles',
@@ -153,7 +153,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Варшава, Польша · Удаленно',
       summary:
-        'Senior Web & Full-Stack инженер с 8+ годами опыта в проектировании и запуске масштабируемых web, desktop и real-time систем. Сильная экспертиза в React, Next.js, NestJS и performance-ориентированной архитектуре.',
+        'Senior Web & Full-Stack инженер с 9 годами опыта в проектировании и запуске масштабируемых web, desktop и real-time систем. Сильная экспертиза в React, Next.js, NestJS и performance-ориентированной архитектуре.',
       ctaPrimary: 'Написать на почту',
       ctaSecondary: 'Смотреть проекты',
       availability: 'Открыт к full-time и контрактным ролям',
@@ -292,7 +292,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Warszawa, Polska · Zdalnie',
       summary:
-        'Senior Web & Full-Stack Engineer z ponad 8-letnim doświadczeniem w projektowaniu i dostarczaniu skalowalnych systemów webowych, desktopowych i realtime. Mocna specjalizacja w React, Next.js, NestJS oraz architekturze nastawionej na wydajność.',
+        'Senior Web & Full-Stack Engineer z ponad 9-letnim doświadczeniem w projektowaniu i dostarczaniu skalowalnych systemów webowych, desktopowych i realtime. Mocna specjalizacja w React, Next.js, NestJS oraz architekturze nastawionej na wydajność.',
       ctaPrimary: 'Napisz do mnie',
       ctaSecondary: 'Zobacz projekty',
       availability: 'Otwarte na role full-time i kontrakty',
@@ -431,7 +431,7 @@ export const translations: Translations = {
       role: 'Senior Software Engineer',
       location: 'Варшава, Польшча · Дыстанцыйна',
       summary:
-        'Senior Web & Full-Stack інжынер з больш чым 8-гадовым досведам у праектаванні і запуску маштабаваных web, desktop і realtime сістэм. Моцная экспертыза ў React, Next.js, NestJS і архітэктуры, арыентаванай на прадукцыйнасць.',
+        'Senior Web & Full-Stack інжынер з больш чым 9-гадовым досведам у праектаванні і запуску маштабаваных web, desktop і realtime сістэм. Моцная экспертыза ў React, Next.js, NestJS і архітэктуры, арыентаванай на прадукцыйнасць.',
       ctaPrimary: 'Напісаць мне',
       ctaSecondary: 'Праекты',
       availability: 'Адкрыты да full-time і кантрактных роляў',
