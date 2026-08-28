@@ -1,73 +1,15 @@
-# Portfolio
+# Portfolio_v2 — moved
 
-Minimal, dark-mode portfolio built with React, TypeScript, and Vite. Includes multilingual content, a mobile floating nav, and a contact form powered by Formspree.
+This project now lives at **[Perchusha/portfolio](https://github.com/Perchusha/portfolio)**.
 
-## Features
+Live site: <https://perchusha.github.io/portfolio/>
 
-- React + TypeScript + Vite
-- Tailwind CSS styling
-- 4 languages with quick switcher
-- Scroll-aware navigation
-- CV download + view links
-- Contact form via Formspree
+## What is left here
 
-## Getting started
+This repository keeps the original history and serves a redirect page, so old links to
+`https://perchusha.github.io/Portfolio_v2/` still land in the right place. Deep links are
+preserved too: `site/404.html` rewrites the path onto the new host, so a bookmarked CV URL
+keeps working.
 
-Install dependencies:
-
-```bash
-yarn
-```
-
-Create `.env`:
-
-```bash
-cp .env.example .env
-```
-
-Run dev server:
-
-```bash
-yarn dev
-```
-
-## Formspree setup
-
-Set your Formspree endpoint in `.env`:
-
-```
-VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/your-id
-```
-
-## Build
-
-```bash
-yarn build
-```
-
-## Format
-
-```bash
-yarn format
-```
-
-## Lint
-
-```bash
-yarn lint
-```
-
-## Project structure
-
-```
-src/
-  components/   # UI blocks
-  constants/    # content and config
-  types/        # shared types
-```
-
-## Notes
-
-- Update `src/constants/translations.ts` to edit content.
-- CV file lives in `public/Anton Perch CV.pdf`.
-- Favicon is `public/portfolio.ico`.
+The source code was moved, not deleted — it is in the new repository, and every commit up to
+`ae6400c` is still in this one.
